@@ -29,6 +29,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import AWS from './AWS.png';
+import FullStack from './full-stack-developer.png';
+import Unity from './UnityTechnologies.png';
+import Blockchain from './blockchain.png';
+
 export {
   logo,
   backend,
@@ -58,4 +63,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  AWS,
+  FullStack,
+  Unity,
+  Blockchain
 };

@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    AWS,
+    FullStack,
+    Unity,
+    Blockchain
   } from "../assets";
   
   export const navLinks = [
@@ -42,20 +46,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Full Stack",
+      icon: FullStack,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Cloud",
+      icon: AWS,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Games",
+      icon: Unity,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Blockchain",
+      icon: Blockchain,
     },
   ];
   
@@ -116,37 +120,34 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      company_name: "Nanyang Technological University",
+      title: "Bachelor of Engineering (Bioengineering) with Honours",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2015 - Aug 2018",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Internship at A*STAR where I developed an application for the purpose of image analysis and post-processing of photoacoustic images.",
+        "Conducted literature reviews, product sourcing and producing high-quality powerpoint slides and research reports.",
+        "Completed a course in Big Data Analytics using R and obtained a 'Certificate of Performance'.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      company_name: "Cardiff University",
+      title: "MSc. in Computing, Distinction",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2018 - Sep 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "KIV",
+        "KIV",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      company_name: "ST Engineering Eletronics",
+      title: "Software Engineer",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Dec 2019 - Sep 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +156,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      company_name: "NCS Pte Ltd",
+      title: "Software Engineer",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2021 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

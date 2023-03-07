@@ -16,10 +16,10 @@ const ExperienceCard = ({experience}) => (
     </div>}>
       <div>
         <h3 className="text-white text-[24px] font-bold">
-        {experience.title}
+        {experience.company_name}
         </h3>
         <p className="text-secondary text-[16px] font-semibold" 
-        style={{ margin:0 }}>{experience.company_name}</p>
+        style={{ margin:0 }}>{experience.title}</p>
       </div>
 
       <ul className="mt-5 list-disc ml-5 space-y-2">
@@ -37,8 +37,8 @@ const Experience = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>What I have done so far</p>
-      <h2 className={styles.sectionHeadText}>Work experience</h2>
+      <p className={styles.sectionSubText}>Where I have gone so far</p>
+      <h2 className={styles.sectionHeadText}>My Journey</h2>
     </motion.div>
     <div className="mt-20 flex flex-col">
       <VerticalTimeline>

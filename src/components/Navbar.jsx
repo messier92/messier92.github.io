@@ -15,11 +15,13 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0,0);
         }}>
-        <img src={logo} alt="logo" className="object-contain w-26 h-28 absolute top-0 left-0 "/>
+        <div className="fixed top-0 left-0 flex flex-row py-2">
+        <img src={logo} alt="logo" className="object-contain w-20 h-22"/>
         <p className="text-white text-[18px] font-bold cursor-pointer">Eugene Goh
         <span className="sm:block hidden"></span>Software Engineer</p>
+        </div>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden sm:flex flex-row gap-10 px-0">
           {navLinks.map((link) => (
             <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} 
             hover:text-white text-[18px] font-medium cursor-pointer`}
