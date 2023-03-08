@@ -85,10 +85,6 @@ import {
       icon: CSharp,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "TypeScript",
       icon: typescript,
     },
@@ -101,10 +97,6 @@ import {
       icon: Python,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -115,10 +107,6 @@ import {
     {
       name: "Solidity",
       icon: Solidity,
-    },
-    {
-      name: "git",
-      icon: git,
     },
     {
       name: "Java",
