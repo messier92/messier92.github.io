@@ -34,6 +34,21 @@ import FullStack from './full-stack-developer.png';
 import Unity from './UnityTechnologies.png';
 import Blockchain from './blockchain.png';
 
+import NTU from './NTU.png';
+import Cardiff from './Cardiff.png';
+import STEngg from './STEngg.png';
+import NCS from './NCS.png';
+
+import CPP from './tech/cpp.png';
+import CSharp from './tech/CSharp.png';
+import Python from './tech/Python.png';
+import Java from './tech/Java.png';
+import Solidity from './tech/Solidity.png';
+
+import Github from './GitHubPNG.png';
+import LinkedIn from './LinkedInPNG.png';
+import Credly from './CredlyPNG.png';
+
 export {
   logo,
   backend,
@@ -66,5 +81,17 @@ export {
   AWS,
   FullStack,
   Unity,
-  Blockchain
+  Blockchain,
+  NTU,
+  Cardiff,
+  STEngg,
+  NCS,
+  CPP,
+  CSharp,
+  Python,
+  Java,
+  Solidity,
+  Github,
+  LinkedIn,
+  Credly
 };

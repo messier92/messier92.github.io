@@ -26,7 +26,19 @@ import {
     AWS,
     FullStack,
     Unity,
-    Blockchain
+    Blockchain,
+    NTU,
+    Cardiff,
+    STEngg,
+    NCS,
+    CPP,
+    CSharp,
+    Python,
+    Java,
+    Solidity,
+    Github,
+    LinkedIn,
+    Credly,
   } from "../assets";
   
   export const navLinks = [
@@ -65,12 +77,12 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "C++",
+      icon: CPP,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C#",
+      icon: CSharp,
     },
     {
       name: "JavaScript",
@@ -85,8 +97,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: Python,
     },
     {
       name: "Tailwind CSS",
@@ -101,71 +113,87 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Solidity",
+      icon: Solidity,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Java",
+      icon: Java,
     },
     {
       name: "docker",
       icon: docker,
-    },
+    },  
   ];
+
+  const contactLinks = [
+    {
+      name: "Github",
+      icon: Github,
+      link: "https://github.com/messier92"
+    },
+    {
+      name: "LinkedIn",
+      icon: LinkedIn,
+      link: "https://linkedin.com/in/han-long-eugene-goh-773724b5"
+    },
+    {
+      name: "Credly",
+      icon: Credly,
+      link: "https://www.credly.com/users/han-long-eugene-goh/badges"
+    },
+  ]
   
   const experiences = [
     {
-      company_name: "Nanyang Technological University",
+      company_name: "Nanyang Technological University, Singapore",
       title: "Bachelor of Engineering (Bioengineering) with Honours",
-      icon: starbucks,
+      icon: NTU,
       iconBg: "#383E56",
       date: "Aug 2015 - Aug 2018",
       points: [
-        "Internship at A*STAR where I developed an application for the purpose of image analysis and post-processing of photoacoustic images.",
-        "Conducted literature reviews, product sourcing and producing high-quality powerpoint slides and research reports.",
-        "Completed a course in Big Data Analytics using R and obtained a 'Certificate of Performance'.",
+        "Internship at A*STAR, where I developed an application using MATLAB for the purpose of image analysis and post-processing of photoacoustic images",
+        "Utilized software such as MATLAB and Origin for my Final Year Project - Microorganism Detection using Raman Spectroscopy and C-ICA",
+        "Completed a course in Big Data Analytics using R and obtained a 'Certificate of Performance'",
       ],
     },
     {
-      company_name: "Cardiff University",
+      company_name: "Cardiff University, UK",
       title: "MSc. in Computing, Distinction",
-      icon: tesla,
+      icon: Cardiff,
       iconBg: "#E6DEDD",
       date: "Sep 2018 - Sep 2019",
       points: [
-        "KIV",
-        "KIV",
+        "Modules taken: Web Application Development, Object-Oriented Programming with Java, Information Modelling and Database Systems, Data Visualization, Software Engineering and Python",
+        "Obtained Distinction for my Dissertation topic - Image Analysis of Museum Insect Drawers; Using Python and related libraries to track and detect the amount of specimens in an image and text recognition of labels",
       ],
     },
     {
       company_name: "ST Engineering Eletronics",
       title: "Software Engineer",
-      icon: shopify,
+      icon: STEngg,
       iconBg: "#383E56",
       date: "Dec 2019 - Sep 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Refactored and optimized plugins written in C++ for a proprietary gaming application. Performed code migration and upgrading, to ensure usability and functionality of the plugins across different C++ versions",
+        "Developed the user interface of an in-house VoIP software using C# WPF and Telerik, adhering to the Model-View-ViewController software architecture",
+        "Created a custom video game user interface with CRUD functionalities using Unity that allows for touch input and simple calculations to be integrated with the company's proprietary gaming application over UDP",
       ],
     },
     {
       company_name: "NCS Pte Ltd",
       title: "Software Engineer",
-      icon: meta,
+      icon: NCS,
       iconBg: "#E6DEDD",
       date: "Sep 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained a full-stack web application using React, NodeJS, GraphQL, and MySQL for the purpose of COVID-19 contact tracing",
+        "Implemented features such as pagination and performed the optimization of SQL queries to provide a faster response time and a more seamless digital experience",
+        "Provide L1-L3 support for a data intermediary project hosted on Amazon Web Services. Developed containerized applications managed on EC2 instances, ECS and Lambda functions for processing data from various sources",
       ],
     },
   ];
@@ -173,27 +201,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Eugene is a creative and critical thinker with high standards for himself. He has constantly been able to identify problems early and sharply within the administrative system and come up with ingenious solutions to improve it.",
+      name: "COL Teo Wee Hong",
+      designation: "COMD",
+      company: "Singapore Armed Forces, Armour Training Institute",
+      link: "https://drive.google.com/file/d/1nl0eABN2Sz7HzBS427B6CGymOd2dpnnL/view?usp=share_link"
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Eugene is good at communication. Even though sometimes the requests and comments to him were quite harsh and demanding, he was always willing to accept the challenge and try his best to get the job done.",
+      name: "Dr Bi Renzhe",
+      designation: "Research Fellow",
+      company: "A*STAR",
+      link: "https://drive.google.com/file/d/19zytXxKayDRwpqVhSxHH1YMyMmJG8RVh/view?usp=share_link"
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Eugene is hard working, energetic, conscientious, and goes about his work in a methodical manner. In addition, he is able to fluently discuss and explain his work - often at great length!",
+      name: "Prof. Paul Rosin",
+      designation: "Professor of Computer Vision",
+      company: "Cardiff University",
+      link: "https://drive.google.com/file/d/1qC9ch8lSe4bQpXyaZiU1xnpuMLOpzP0k/view?usp=sharing"
     },
   ];
   
@@ -263,5 +291,5 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, contactLinks };
   
