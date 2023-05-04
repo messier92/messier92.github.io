@@ -20,11 +20,6 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import logo from './eglogo.svg';
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -32,7 +27,7 @@ import tripguide from "./tripguide.png";
 import AWS from './AWS.png';
 import FullStack from './full-stack-developer.png';
 import Unity from './UnityTechnologies.png';
-import Blockchain from './blockchain.png';
+import ComputerVision from './computervision.png';
 
 import NTU from './NTU.png';
 import Cardiff from './Cardiff.png';
@@ -48,6 +43,13 @@ import Solidity from './tech/Solidity.png';
 import Github from './GitHubPNG.png';
 import LinkedIn from './LinkedInPNG.png';
 import Credly from './CredlyPNG.png';
+
+import yolov4vehicle from './projects/CV1.png';
+import dalletutorial from './projects/dallereacttutorial.png';
+import flutterapp from './projects/FlutterApp1.png';
+import portfoliov1 from './projects/portfoliov1.png';
+import maskdetectionapp from './projects/tensorflowmask.jpg';
+import telegrambotproject from './projects/telegrambot.jpg';
 
 export {
   logo,
@@ -71,17 +73,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
   tripguide,
   AWS,
   FullStack,
   Unity,
-  Blockchain,
+  ComputerVision,
   NTU,
   Cardiff,
   STEngg,
@@ -93,5 +91,11 @@ export {
   Solidity,
   Github,
   LinkedIn,
-  Credly
+  Credly,
+  yolov4vehicle,
+  dalletutorial,
+  flutterapp,
+  portfoliov1,
+  maskdetectionapp,
+  telegrambotproject
 };

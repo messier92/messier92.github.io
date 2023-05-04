@@ -15,10 +15,6 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
@@ -26,7 +22,7 @@ import {
     AWS,
     FullStack,
     Unity,
-    Blockchain,
+    ComputerVision,
     NTU,
     Cardiff,
     STEngg,
@@ -39,6 +35,12 @@ import {
     Github,
     LinkedIn,
     Credly,
+    yolov4vehicle,
+    dalletutorial,
+    flutterapp,
+    portfoliov1,
+    maskdetectionapp,
+    telegrambotproject
   } from "../assets";
   
   export const navLinks = [
@@ -70,8 +72,8 @@ import {
       icon: Unity,
     },
     {
-      title: "Blockchain",
-      icon: Blockchain,
+      title: "Computer Vision",
+      icon: ComputerVision,
     },
   ];
   
@@ -161,7 +163,7 @@ import {
       ],
     },
     {
-      company_name: "ST Engineering Eletronics",
+      company_name: "ST Engineering Electronics",
       title: "Software Engineer",
       icon: STEngg,
       iconBg: "#383E56",
@@ -173,7 +175,7 @@ import {
       ],
     },
     {
-      company_name: "NCS Pte Ltd",
+      company_name: "NCS Group",
       title: "Software Engineer",
       icon: NCS,
       iconBg: "#E6DEDD",
@@ -215,9 +217,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Full-Stack MERN AI Image Generation Tutorial",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Adapted from https://www.youtube.com/watch?v=EyIvuigqDoA. Using OpenAI's DALL-E API to generate images on a message board application with Create, Read and Delete functionalities.",
       tags: [
         {
           name: "react",
@@ -232,50 +234,113 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: dalletutorial,
+      source_code_link: "https://github.com/messier92/Full-Stack-MERN-AI-Image-Generation-App-tutorial",
     },
     {
-      name: "Job IT",
+      name: "Telegram Chatbot",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Adapted from https://www.youtube.com/watch?v=NwBWW8cNCP4. Created a simple Chatbot using Python and PyTorch with NLTK to understand simple patterns/keywords in a sentence and to give an appropriate reply.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pytorch",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nltk",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: telegrambotproject,
+      source_code_link: "https://github.com/messier92/Chatbot-Learning",
+    },
+    {
+      name: "Portfolio V1",
+      description:
+        "Adapted from https://www.youtube.com/watch?v=3HNyXCPDQ7Q. The first version of my portfolio without the three.js elements. Sanity.io serves as the content delivery system, and the website is hosted on https://gohhanlongeugene.netlify.app/.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "sanity.io",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: portfoliov1,
+      source_code_link: "https://github.com/messier92/EG_Portfolio",
     },
     {
-      name: "Trip Guide",
+      name: "Face Mask Detection and Classification using TensorFlow",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "With reference from https://github.com/TannerGilbert/Tensorflow-Object-Detection-API-Train-Model. Learning how to use TensorFlow v2 to train a model that is capable of detecting if a person is wearing a face mask and also classify the type of mask that the person is wearing.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tensorflow",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "computervision",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: maskdetectionapp,
+      source_code_link: "https://github.com/messier92/TF2-Mask-Detection-Custom",
+    },
+    {
+      name: "Vehicle Detection and Classification using YOLOv4",
+      description:
+        "Performed web scraping using BeautifulSoup on LTA's traffic monitoring website, then applying YOLOv4 to detect and classify the vehicles in the images.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "yolo",
+          color: "green-text-gradient",
+        },
+        {
+          name: "beautifulsoup",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: yolov4vehicle,
+      source_code_link: "https://github.com/messier92/Tensorflow_YOLOV4_VehicleDetection",
+    },
+    {
+      name: "Ticket Booking application using Flutter",
+      description:
+        "Adapted from https://www.youtube.com/watch?v=71AsYo2q_0Y, learning how to develop mobile applications using Android Studio.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "androidstudio",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mobile",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: flutterapp,
+      source_code_link: "https://github.com/messier92/Ticket-Booking-App-Development-Tutorial",
     },
   ];
   
